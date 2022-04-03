@@ -12,7 +12,7 @@ In this step, we obtained our dataset from the Github repository Code Heroku. Th
 The dataset is split into testing and training datasets having both x and y values. Where x represents pixels and y represents the target value(person).
 
 ## Apply PCA:
-The first thing we apply is a PCA transform to the inpu t dataset.The data is projected to a PCA subspace by extracting the direction having maximum variance from the images. By applying PCA we derive the first few principal components of the dataset where each highlights different objects or body parts like sp ectacles, moustaches and so on from the picture.
+The first thing we apply is a PCA transform to the input dataset.The data is projected to a PCA subspace by extracting the direction having maximum variance from the images. By applying PCA we derive the first few principal components of the dataset where each highlights different objects or body parts like sp ectacles, moustaches and so on from the picture.
 
 ## Select number of components:
 To know how many components, we need to recognize the image, we will plot a graph and get to know at what level we are getting the accuracy of the image. In the graph we observ e for the first few principal components we observe maximum variance. In the principal components, we can observe some bright spots where it indicates that there is maximum variance at that particular part. At 150, we get more variation getting captured wi th 97% accuracy.
